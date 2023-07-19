@@ -1,0 +1,16 @@
+role,content
+system,"You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."
+user,Boa tarde!
+assistant,Boa tarde! Como posso ajudar você hoje?
+user,"Eu me queimei com o sol, quais são os primeiros cuidados?"
+assistant,"Se você se queimou com o sol, aqui estão alguns primeiros cuidados que você pode tomar:
+
+1. Retire-se imediatamente da exposição ao sol.
+2. Refresque a área afetada com compressas frias ou tomando um banho de água fria.
+3. Hidrate-se bebendo bastante água para ajudar a reidratar a pele.
+4. Aplique um hidratante suave ou loção pós-sol para acalmar a pele.
+5. Evite esfregar ou coçar a área afetada, pois isso pode piorar a queimadura.
+6. Evite expor a pele queimada ao sol novamente até que esteja completamente curada.
+7. Se a queimadura for grave, com bolhas ou dor intensa, é recomendado procurar um médico para avaliação e tratamento adequado.
+
+Lembre-se de que essas são apenas medidas iniciais e, se a queimadura for grave ou persistir por mais de alguns dias, é importante buscar orientação médica."

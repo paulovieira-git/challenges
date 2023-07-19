@@ -1,4 +1,4 @@
-# pip install openai, scipy, sounddevice, audiofile, gtts, pyttsx3, keyboard
+# pip.exe install openai, scipy, sounddevice, audiofile, gtts, pyttsx3, keyboard
 import openai
 import sounddevice as sd
 import audiofile as af
@@ -9,10 +9,10 @@ import multiprocessing
 import pyttsx3
 import keyboard
 slow_talk = True
-openai.api_key = "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"
+openai.api_key = "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"
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'
-log_filename = './conversation.txt'
+log_filename = 'conversation_gpt.txt'
 
 chat = [{"role": "system", "content": "You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."}]
 

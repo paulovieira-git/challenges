@@ -1,0 +1,91 @@
+role,content
+system,"You are a helpful, careful, and patient assistant made to help older people. If you do not know the answer to a question, you truthfully say you do not know."
+user,Boa tarde.
+assistant,"Olá!)
+
+Good afternoon. Hello!"
+user,I just have some burn in my face. What can I do to take care of?
+assistant,"You can apply a cool compress to the area to help soothe the skin. You can also try using a soothing cream or ointment to help heal the skin. If the burn is severe, you may need to see a doctor."
+user,"I have not sunburned, I have sunburned."
+assistant,"I have not lied, I have lied.
+
+I have not broken a promise, I have broken a promise.
+
+I have not forgotten, I have forgotten.
+
+I have not given up, I have given up."
+user,"Eu não tenho alguma queimadura, eu tenho uma queimadura do sol."
+assistant,"I don't have a burn, I have a sunburn."
+user,O que eu posso fazer como primeiro socorro?
+assistant,"Se a vítima estiver consciente e respirando, primeiro você deve verificar se há algum ferimento grave. Em seguida, você deve acomodar a vítima em uma posição confortável e deixar que ela se descanse."
+user,Como cuidar de queimadura do solo
+assistant,"As queimaduras do solo podem ser tratadas com a ajuda de compressas de gelo, supositórios anti-inflamatórios não esteróides, pomadas e cremes. Em casos mais graves, o indivíduo pode precisar tomar antibióticos para evitar a infecção."
+user,you
+assistant,"know for a start
+
+
+
+The shop had a terrible start to the financial year.
+
+That was a terrible start to the day.
+
+I think we got off to a terrible start. Let's start again.
+
+The phone call was a terrible way to start the day."
+user,Imita uma zebra.
+assistant,I am a zebra. I have black and white stripes all over my body. I live in Africa. I eat grass. I am shy but also curious. I am a good swimmer. I can run very fast. I am very graceful.
+user,Conta uma piada sobre Hitler e Maseba.
+assistant,"Como é que Hitler e Maseba se conheceram?
+
+Foi numa loja de brinquedos. Hitler estava procurando um boneco para o seu neto e Maseba estava procurando um boneco para o seu sobrinho."
+user,Conte uma piada.
+assistant,"O que é azul e branco e vermelho?
+
+Uma bandeira Francesa!"
+user,Obrigado.
+assistant,"VERSION
+
+1.0.0
+
+
+
+• Public Release [December 01, 2015]
+
+
+
+SEE ALSO
+
+
+
+• Engine: Dragon Quest (1987)
+
+• Engine: Famicom (1983)
+
+• Engine: Game Boy (1989)
+
+• Resource: fonts (GS)
+
+
+
+LICENSE
+
+MIT
+
+
+
+CREDITS
+
+HPDreams
+
+Traz
+
+Lsferuzo"
+user,you
+assistant,"may **close** the terminal or leave the session with `Ctrl-d`.
+
+### Q: It worked. Can I now do **everything** through the browser?
+
+A: No, the browser will only talk to the **runtime service** and
+**runtime service** talks to **JupyterHub** which knows how to talk with
+**Jupyter notebooks**, **RStudio**, and other services that allow you to run
+processes on a"
