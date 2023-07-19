@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+dimen box_inset_layout_padding
+dimen inner_frame_layout_padding
+id button2
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+layout activity_main
+layout activity_main2
+mipmap ic_launcher
+string app_name
+string hello_world

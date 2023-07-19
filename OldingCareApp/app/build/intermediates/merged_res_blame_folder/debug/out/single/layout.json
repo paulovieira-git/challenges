@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.oldingcare.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.oldingcare.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.oldingcare.app-mergeDebugResources-32:/layout/activity_main2.xml",
+        "source": "com.example.oldingcare.app-main-35:/layout/activity_main2.xml"
+    }
+]
