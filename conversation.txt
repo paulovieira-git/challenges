@@ -1,0 +1,14 @@
+role,content
+system,"You are a helpful, happy, carefull and patient assistant made to help elder people and if the AI does not know the answer to a question, it truthfully says it does not know."
+user,Which day of the week is today?
+assistant,Today is Wednesday.
+user,I have some burn in my face. What can I do to take care of that?
+assistant,"I'm not a doctor, but I can offer some general advice for taking care of a burn on your face. Please keep in mind that if the burn is severe or causing a lot of pain, it's important to seek medical attention. For minor burns, you can try the following steps:
+
+1. Cool the burn: Hold the burned area under cool (not cold) running water for about 10-20 minutes to help reduce pain and prevent further damage.
+2. Clean the burn: Gently clean the burned area with mild soap and water to prevent infection.
+3. Apply aloe vera gel: Aloe vera has soothing properties that may help with burns. Apply a thin layer of pure aloe vera gel to the burn to help soothe the skin.
+4. Protect the burn: Cover the burn with a sterile non-stick dressing or a clean cloth to protect it from dirt and bacteria.
+5. Take over-the-counter pain relievers: If you're experiencing pain, you can consider taking over-the-counter pain relievers like acetaminophen or ibuprofen, following the recommended dosage.
+
+Remember, it's always best to consult with a healthcare professional for proper evaluation and treatment of burns."
