@@ -9,12 +9,12 @@ import multiprocessing
 import pyttsx3
 import keyboard
 slow_talk = True
-openai.api_key = "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"
+openai.api_key = "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"
 input_audio_filename = 'input.wav'
-output_audio_filename = 'chatgpt_response.wav'
+output_audio_filename = 'response.wav'
 log_filename = './conversation.txt'
 
-chat = [{"role": "system", "content": "You are a helpful, happy, carefull and patient assistant made to help elder people and if the AI does not know the answer to a question, it truthfully says it does not know."}]
+chat = [{"role": "system", "content": "You are a helpful, happy, carefull and patient assistant made to help elder people and if you does not know the answer to a question, it truthfully says it does not know."}]
 
 # Voice Record
 def speech(text):
@@ -53,12 +53,12 @@ def audio_to_txt(filename):
     audio_file.close()
     return transcript
 
-# Roseta stone
-def roseta_stone(filename):
-    audio_file= open(filename, "rb")
-    translation = openai.Audio.translate("whisper-1", audio_file)
-    audio_file.close()
-    return translation
+# # Roseta stone
+# def roseta_stone(filename):
+#     audio_file= open(filename, "rb")
+#     translation = openai.Audio.translate("whisper-1", audio_file)
+#     audio_file.close()
+#     return translation
 
 # text to audio generator
 def save_text_as_audio(text, audio_filename):
@@ -84,7 +84,7 @@ def main():
         chat.append({"role": "user", "content": transcription['text']})
         print(f"\nUser: {transcription['text']}")
 
-        bot = openai.ChatCompletion.create(model="gpt-3.5-turbo", temperature=0.1, messages=chat)
+        bot = openai.ChatCompletion.create(model="gpt-3.5-turbo", temperature=0.0, messages=chat)
 
         response = bot.choices[0].message.content
         chat.append({"role": "assistant", "content": response})
