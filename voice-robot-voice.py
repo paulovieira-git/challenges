@@ -9,12 +9,12 @@ import multiprocessing
 import pyttsx3
 import keyboard
 slow_talk = True
-openai.api_key = "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"
+openai.api_key = "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"
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'
 log_filename = './conversation.txt'
 
-chat = [{"role": "system", "content": "You are a helpful, happy, carefull and patient assistant made to help elder people and if you does not know the answer to a question, it truthfully says it does not know."}]
+chat = [{"role": "system", "content": "You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."}]
 
 # Voice Record
 def speech(text):
@@ -84,7 +84,14 @@ def main():
         chat.append({"role": "user", "content": transcription['text']})
         print(f"\nUser: {transcription['text']}")
 
-        bot = openai.ChatCompletion.create(model="gpt-3.5-turbo", temperature=0.0, messages=chat)
+        # Testar por texto: Não funciona sair com thank you
+        # transcription = input(">>>")
+        # chat.append({"role": "user", "content": f'{transcription}'})
+        # print(f"\nUser: {transcription}")
+
+        bot = openai.ChatCompletion.create(model="gpt-3.5-turbo",
+                                           temperature=0.0,
+                                           messages=chat)
 
         response = bot.choices[0].message.content
         chat.append({"role": "assistant", "content": response})
