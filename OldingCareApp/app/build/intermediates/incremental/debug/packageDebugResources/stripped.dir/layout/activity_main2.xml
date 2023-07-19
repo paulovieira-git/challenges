@@ -22,26 +22,25 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView4"
+        <ToggleButton
+            android:id="@+id/toggleButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textSize="14sp"
+            android:backgroundTint="@color/design_default_color_error"
             android:text="Conversar" />
-        <TextView
-            android:id="@+id/textView5"
+
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textSize="14sp"
+            android:backgroundTint="@color/design_default_color_primary"
             android:text="Actividades" />
-        <TextView
-            android:id="@+id/textView6"
+
+        <Button
+            android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textSize="14sp"
             android:text="Agenda Médica" />
+
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>

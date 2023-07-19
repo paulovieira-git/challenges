@@ -4,7 +4,9 @@ package com.example.oldingcare.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,24 +22,24 @@ public final class ActivityMain2Binding implements ViewBinding {
   private final BoxInsetLayout rootView;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
+  public final Button button3;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
-  public final TextView textView4;
+  public final ToggleButton toggleButton;
 
-  @NonNull
-  public final TextView textView5;
-
-  @NonNull
-  public final TextView textView6;
-
-  private ActivityMain2Binding(@NonNull BoxInsetLayout rootView, @NonNull TextView textView,
-      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6) {
+  private ActivityMain2Binding(@NonNull BoxInsetLayout rootView, @NonNull Button button,
+      @NonNull Button button3, @NonNull TextView textView, @NonNull ToggleButton toggleButton) {
     this.rootView = rootView;
+    this.button = button;
+    this.button3 = button3;
     this.textView = textView;
-    this.textView4 = textView4;
-    this.textView5 = textView5;
-    this.textView6 = textView6;
+    this.toggleButton = toggleButton;
   }
 
   @Override
@@ -67,32 +69,32 @@ public final class ActivityMain2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
+      id = R.id.button3;
+      Button button3 = ViewBindings.findChildViewById(rootView, id);
+      if (button3 == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
+      id = R.id.toggleButton;
+      ToggleButton toggleButton = ViewBindings.findChildViewById(rootView, id);
+      if (toggleButton == null) {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView6;
-      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
-      if (textView6 == null) {
-        break missingId;
-      }
-
-      return new ActivityMain2Binding((BoxInsetLayout) rootView, textView, textView4, textView5,
-          textView6);
+      return new ActivityMain2Binding((BoxInsetLayout) rootView, button, button3, textView,
+          toggleButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

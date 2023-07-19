@@ -2112,7 +2112,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id butt
+id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2453,8 +2455,6 @@ id textTop
 id textView
 id textView2
 id textView3
-id textView4
-id textView5
 id textView6
 id text_input_end_icon
 id text_input_error_icon
@@ -2470,6 +2470,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleButton
 id top
 id topPanel
 id touch_outside
