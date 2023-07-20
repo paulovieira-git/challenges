@@ -28,16 +28,21 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final Button button3;
 
   @NonNull
+  public final Button button4;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
   public final ToggleButton toggleButton;
 
   private ActivityMain2Binding(@NonNull BoxInsetLayout rootView, @NonNull Button button,
-      @NonNull Button button3, @NonNull TextView textView, @NonNull ToggleButton toggleButton) {
+      @NonNull Button button3, @NonNull Button button4, @NonNull TextView textView,
+      @NonNull ToggleButton toggleButton) {
     this.rootView = rootView;
     this.button = button;
     this.button3 = button3;
+    this.button4 = button4;
     this.textView = textView;
     this.toggleButton = toggleButton;
   }
@@ -81,6 +86,12 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button4;
+      Button button4 = ViewBindings.findChildViewById(rootView, id);
+      if (button4 == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -93,7 +104,7 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMain2Binding((BoxInsetLayout) rootView, button, button3, textView,
+      return new ActivityMain2Binding((BoxInsetLayout) rootView, button, button3, button4, textView,
           toggleButton);
     }
     String missingId = rootView.getResources().getResourceName(id);

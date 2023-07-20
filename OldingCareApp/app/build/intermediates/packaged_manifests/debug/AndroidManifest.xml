@@ -29,6 +29,22 @@
         android:testOnly="true"
         android:theme="@android:style/Theme.DeviceDefault" >
         <activity
+            android:name="com.example.oldingcare.MainActivity4"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.oldingcare.MainActivity3"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.oldingcare.MainActivity2"
             android:exported="false"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >

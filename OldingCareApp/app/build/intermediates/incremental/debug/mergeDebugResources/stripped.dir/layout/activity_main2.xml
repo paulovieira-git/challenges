@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:text="AI Assistant"
             android:textAlignment="center"
             android:textSize="14sp"
@@ -25,22 +25,37 @@
         <ToggleButton
             android:id="@+id/toggleButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="38dp"
             android:backgroundTint="@color/design_default_color_error"
-            android:text="Conversar" />
+            android:onClick="chatButton"
+            android:text="Conversar"
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="37dp"
             android:backgroundTint="@color/design_default_color_primary"
-            android:text="Actividades" />
+            android:onClick="activityButton"
+            android:text="Actividades"
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Agenda Médica" />
+            android:layout_height="36dp"
+            android:onClick="medicalShedule"
+            android:text="Agenda Médica"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:onClick="inicio"
+            android:text="SAIR"
+            android:textSize="12sp" />
 
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>
