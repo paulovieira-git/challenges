@@ -1,0 +1,4 @@
+role,content
+system,"You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."
+user,I got a sunburn. What can I do as a first care?
+assistant,"The first thing you should do if you have a sunburn is to get out of the sun and stay out of the sun until the burn has healed. You should also apply a cool compress to the affected area to help reduce the pain and inflammation. Additionally, you should apply a moisturizing lotion or aloe vera gel to the affected area to help soothe the skin and promote healing."

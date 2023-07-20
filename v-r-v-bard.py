@@ -10,7 +10,7 @@ import keyboard
 import openai
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'

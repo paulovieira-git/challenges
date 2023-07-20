@@ -1,4 +1,4 @@
-# pip.exe install openai, scipy, sounddevice, audiofile, gtts, pyttsx3, keyboard
+# pip.exe install openai, scipy, sounddevice, audiofile, gtts, pyttsx3, keyboard, langchain
 import openai
 import sounddevice as sd
 import audiofile as af
@@ -8,11 +8,17 @@ import pandas as pd
 import multiprocessing
 import pyttsx3
 import keyboard
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain
+import os
+from langchain.llms import OpenAI
+
 slow_talk = True
 openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'
-log_filename = 'conversation_gpt.txt'
+log_filename = 'conversation_llm.txt'
 
 chat = [{"role": "system", "content": "You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."}]
 
@@ -53,13 +59,6 @@ def audio_to_txt(filename):
     audio_file.close()
     return transcript
 
-# # Roseta stone
-# def roseta_stone(filename):
-#     audio_file= open(filename, "rb")
-#     translation = openai.Audio.translate("whisper-1", audio_file)
-#     audio_file.close()
-#     return translation
-
 # text to audio generator
 def save_text_as_audio(text, audio_filename):
     conversion = gTTS(text=text, lang='en', slow=slow_talk)
@@ -72,7 +71,18 @@ def save_log(conversation):
     print('== Log Created ==')
     print('Thank you')
 
+def llm(question):
+    # define o formato de input
+    llm = OpenAI(model='text-davinci-003', temperature=0.1)
+    text = "You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know. {question}"
 
+    prompt = PromptTemplate(
+        input_variables=["question"],
+        template=text,
+    )
+    chain = LLMChain(prompt=prompt, llm=llm)
+
+    return chain.run(question).strip()
 def main():
     while True:
         get_audio_manual(input_audio_filename)
@@ -89,12 +99,9 @@ def main():
         # chat.append({"role": "user", "content": f'{transcription}'})
         # print(f"\nUser: {transcription}")
 
-        bot = openai.ChatCompletion.create(model="gpt-3.5-turbo",
-                                           temperature=0.0,
-                                           messages=chat)
-
-        response = bot.choices[0].message.content
-        chat.append({"role": "assistant", "content": response})
+        question = transcription['text']
+        response = llm(question)
+        chat.append({"role": "assistant", "content": f'{response}'})
         print(f"Assistant: {response}")
         print("\n=== Press enter to stop the answer and start a new question ===\n")
         speech(response)
