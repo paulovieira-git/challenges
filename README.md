@@ -1,6 +1,6 @@
 # olding care project
 
-![alt text](./images/project-ocp.jpg)
+![alt text](./images/projecto-ocp.jpg)
 
 ![alt text](./images/ocp-0.jpg)
 
