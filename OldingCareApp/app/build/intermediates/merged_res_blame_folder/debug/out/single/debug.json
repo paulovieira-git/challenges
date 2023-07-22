@@ -8,6 +8,10 @@
         "source": "com.example.oldingcare.app-main-35:/layout/activity_main2.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-merged_res-33:\\layout_activity_main3.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\layout\\activity_main3.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -30,5 +34,9 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-merged_res-33:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\layout\\activity_main4.xml"
     }
 ]

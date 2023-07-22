@@ -2115,6 +2115,9 @@ id butt
 id button
 id button2
 id button3
+id button4
+id button6
+id button8
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2190,6 +2193,8 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextMultiLine6
+id editTextTextMultiLine8
 id edit_query
 id elastic
 id end
@@ -2456,6 +2461,8 @@ id textView
 id textView2
 id textView3
 id textView6
+id textView7
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2599,6 +2606,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_main2
+layout activity_main3
+layout activity_main4
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

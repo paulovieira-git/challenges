@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-mergeDebugResources-32:\\layout\\activity_main4.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-mergeDebugResources-32:\\layout\\activity_main3.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\layout\\activity_main3.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-mergeDebugResources-32:\\layout\\activity_main.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.oldingcare.app-main-35:\\layout\\activity_main.xml"
     },

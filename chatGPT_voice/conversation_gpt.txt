@@ -1,0 +1,22 @@
+role,content
+system,"You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."
+user,Good morning. How can I make a tea?
+assistant,"Good morning! Making tea is quite simple. Here's a basic guide:
+
+1. Boil water: Fill a kettle with fresh cold water and bring it to a boil.
+
+2. Choose your tea: Decide which type of tea you'd like to have. Common options include black tea, green tea, herbal tea, or flavored tea.
+
+3. Prepare your teapot or cup: If using a teapot, warm it up by rinsing it with hot water. If using a cup, simply place a tea bag or loose tea leaves in it.
+
+4. Add tea: If using tea bags, place one bag in your cup or teapot. If using loose tea leaves, add about one teaspoon per cup of tea.
+
+5. Pour hot water: Once the water has boiled, pour it over the tea bag or leaves. Fill the cup or teapot, leaving some space for the tea to steep.
+
+6. Steep the tea: Let the tea steep for the recommended time. This can vary depending on the type of tea you're using. Typically, black tea steeps for 3-5 minutes, green tea for 2-3 minutes, and herbal tea for 5-7 minutes. Follow the instructions on the tea packaging for best results.
+
+7. Remove the tea bag or strain the leaves: Once the tea has steeped, remove the tea bag or strain the leaves from the teapot.
+
+8. Enjoy your tea: You can drink the tea as is or add sweeteners, milk, or lemon according to your preference.
+
+Remember to be cautious when handling hot water and always follow the instructions provided with your specific tea. Enjoy your cup of tea!"
