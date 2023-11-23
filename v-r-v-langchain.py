@@ -14,8 +14,8 @@ import os
 from langchain.llms import OpenAI
 
 slow_talk = True
-openai.api_key = "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"
-os.environ["OPENAI_API_KEY"] = "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"
+openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'
 log_filename = 'conversation_llm.txt'

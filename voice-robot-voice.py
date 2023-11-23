@@ -9,13 +9,13 @@ import multiprocessing
 import pyttsx3
 import keyboard
 slow_talk = True
-openai.api_key = "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"
+openai.api_key = "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"
 input_audio_filename = 'input.wav'
 output_audio_filename = 'response.wav'
 log_filename = 'conversation_gpt.txt'
 
-chat = [{"role": "system", "content": "You are helpful, carefull and patient assistant made to help older people and if you does not know the answer to a question, it truthfully says it does not know."}]
-
+chat = [{"role": "system", "content": "You are helpful, carefull and patient assistant made to help older people, give your answers in english and if you does not know the answer to a question, it truthfully says it does not know."}]
+print(sd.default.device)
 # Voice Record
 def speech(text):
     p = multiprocessing.Process(target=pyttsx3.speak, args=(text,))
